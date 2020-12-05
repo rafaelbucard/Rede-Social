@@ -7,8 +7,7 @@ use \core\Controller;
 class loginController extends Controller {
 
     public function signin() {
-        echo 'login';
-
+       $this->render('login');
     }
     public function signup() {
         echo 'cadastro';
