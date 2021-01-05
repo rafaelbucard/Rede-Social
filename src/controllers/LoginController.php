@@ -20,6 +20,8 @@ class loginController extends Controller {
     }
 
     public function signinAction() {
+        $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+        $password = filter_input(INPUT_POST, 'password');
         
         
         if ($email && $password) {
@@ -56,6 +58,17 @@ class loginController extends Controller {
         $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
         $password = filter_input(INPUT_POST, 'password');
         $birthdate = filter_input(INPUT_POST, 'birthdate');
+
+        if ($name && $email && $password && $birthdate) {
+            
+            $birthdate = explode('/',$birthdate);
+            if(count($birthdate) === 3 ) {
+                $birthdate = $birthdate[2].'-'.$birthdate[1].'-'.$birthdate[0];
+
+            }
+        } else {
+            $this->redirect('/cadastro');
+        }
 
     }
 
