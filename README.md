@@ -14,8 +14,12 @@ Css
 ## Base de dados:
 
 Nome do Banco: devsbook
+
 [Click Aqui para o Arquivo SQL](https://github.com/rafaelbucard/Rede-Social/blob/main/devsbookdb.sql)
+
+
 O  link do banco de dados será atualizado conforme o crescimento do projeto.
+
 
 # Abrindo Localmente:
 
