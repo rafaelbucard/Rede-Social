@@ -53,7 +53,7 @@ class loginController extends Controller {
         
     }
    
-    public function signupAvtion() {
+    public function signupAction() {
         $name = filter_input(INPUT_POST, 'name');
         $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
         $password = filter_input(INPUT_POST, 'password');
@@ -71,7 +71,7 @@ class loginController extends Controller {
 
              if(strtotime($birthdate)=== false){
 
-                $_SESSION['flash'] = 'Data de nascimento Invalida';
+                $_SESSION['flash'] = 'Data de nascimento Inválida!';
                 $this->redirect('/cadastro');
             }
             if(LoginHandler::emailExists($email) === false){
@@ -83,6 +83,7 @@ class loginController extends Controller {
                 $this->redirect('/cadastro');
             }
         } else {
+            $_SESSION['flash'] = 'Campos obrigatórios para cadastro!';
             $this->redirect('/cadastro');
         }
 
