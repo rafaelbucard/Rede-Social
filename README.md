@@ -24,18 +24,16 @@ Nome do Banco: devsbook
 O  link do banco de dados será atualizado conforme o crescimento do projeto.
 
 
-# Abrindo Localmente:
+## Abrindo Localmente:
+
+Configuração de Ambiente https://www.apachefriends.org/pt_br/index.html
+
+Configurarar url base em dir src/config.php
 
 
-# Desktop
+## Desktop
 
-![alt text]()
 
-![alt text]()
-
-# Mobile
-
-![alt text]()
-
+## Mobile
 
 Criado com amor por Rafael Buçard! 
