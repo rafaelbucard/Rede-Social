@@ -1,8 +1,8 @@
-#Rede-Social
- Rede social  feita em PHP com arquitetura MVC Respeitando os princípios SOLID.
+
+## Rede social  feita em PHP com arquitetura MVC Respeitando os princípios SOLID.
  
  
-## Ferramentas:
+### Ferramentas:
 
 PHP 7 ou +
 
@@ -14,7 +14,7 @@ Css
 
  **(O Objetivo do Projeto é demonstrar habilidades com a Linguagem PHP na construção de um sistma completo de uma REDE SOCIAL: login e cadastro, criação de perfil feita pelo usuário, postagens de imagens e textos, feed de noticias, sistema de comentários)** 
  
-## Base de dados:
+### Base de dados:
 
 Nome do Banco: devsbook
 
@@ -24,16 +24,16 @@ Nome do Banco: devsbook
 O  link do banco de dados será atualizado conforme o crescimento do projeto.
 
 
-## Abrindo Localmente:
+### Abrindo Localmente:
 
 Configuração de Ambiente https://www.apachefriends.org/pt_br/index.html
 
 Configurarar url base em dir src/config.php
 
 
-## Desktop
+### Desktop
 
 
-## Mobile
+### Mobile
 
 Criado com amor por Rafael Buçard! 
