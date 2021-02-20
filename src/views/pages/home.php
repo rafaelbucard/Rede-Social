@@ -91,13 +91,13 @@
                             </div>
                         </div>
                         <div class="box-body">
-                            <a href=""><img src="https://alunos.b7web.com.br/media/courses/php-nivel-1.jpg" /></a>
-                            <a href=""><img src="https://alunos.b7web.com.br/media/courses/laravel-nivel-1.jpg" /></a>
+                            <a href=""><img src="https://th.bing.com/th/id/Re80b3dfc8753bd5a58c37a24ae872747?rik=MKmdl5iQPLAn8g&riu=http%3a%2f%2fconfigr.com%2fblog%2fcontent%2fimages%2f2018%2f07%2fGhost_laravel--1-.png&ehk=3LEtFsLO0KN5BoOqXGPk1JZ5afvM6biFbio7uikJWaw%3d&risl=&pid=ImgRaw" /></a>
+                            <a href=""><img src="https://i.ytimg.com/vi/OJKoSSHN29k/maxresdefault.jpg" /></a>
                         </div>
                     </div>
                     <div class="box">
                         <div class="box-body m-10">
-                            Criado com ❤️ por B7Web
+                            Criado com ❤️ por Rafael Buçard
                         </div>
                     </div>
                 </div>
