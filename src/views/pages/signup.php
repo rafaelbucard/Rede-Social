@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="container">
-            <a href=""><img src="<?=$base;?>/assets/images/devsbook_logo.png" /></a>
+            <a href=""><img src="<?=$base;?>/assets/images/logo_logo.png" /></a>
         </div>
     </header>
     <section class="container main">

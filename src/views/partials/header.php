@@ -11,7 +11,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <a href=""><img src="assets/images/devsbook_logo.png" /></a>
+                <a href=""><img src="assets/images/logo_logo.png" /></a>
             </div>
             <div class="head-side">
                 <div class="head-side-left">
