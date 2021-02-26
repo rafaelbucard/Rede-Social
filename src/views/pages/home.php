@@ -1,4 +1,6 @@
-<?php $render('header'); ?>
+<?php
+
+ $render('header' , ['loggedUser' =>  $this->loggedUser]); ?>
 <section class="container main">
        <?php $render('sidebar');?>
         <section class="feed mt-10">

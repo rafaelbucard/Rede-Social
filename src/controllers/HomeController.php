@@ -7,7 +7,7 @@ use \src\handlers\LoginHandler;
 
 class HomeController extends Controller {
 
-    private $loggedUser;
+    protected $loggedUser;
 
 
     public function __construct() {
@@ -22,7 +22,10 @@ class HomeController extends Controller {
         
 
     public function index() {
-        $this->render('home', ['nome' => 'Rafael']);
+        $this->render('home', [
+            'loggedUser' =>  $this->loggedUser
+            
+            ]);
       
     }
 
