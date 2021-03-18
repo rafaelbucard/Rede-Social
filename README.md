@@ -1,5 +1,5 @@
 
-## Rede social  feita em PHP com arquitetura MVC Respeitando os princípios SOLID.
+## :globe_with_meridians: Rede social  feita em PHP com arquitetura MVC Respeitando os princípios SOLID.
 
   **(O Objetivo do Projeto é demonstrar habilidades com a Linguagem PHP na construção de um sistma completo de uma REDE SOCIAL: login e cadastro, criação de perfil feita pelo usuário, postagens de imagens e textos, feed de noticias, sistema de comentários)** 
   
@@ -10,8 +10,8 @@ Mysql
 
 Composer  
  
-### Base de dados:
-Nome do Banco: devsbook
+### Base de dados: :game_die: :game_die:  :game_die: :game_die:
+Nome do Banco: devsbook 
 
 [Click Aqui para o Arquivo SQL](https://github.com/rafaelbucard/Rede-Social/blob/main/devsbookdb.sql)
 
